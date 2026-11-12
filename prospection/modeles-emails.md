@@ -1,8 +1,9 @@
 # Modèles d'e-mails fournisseurs
 
-> **Statut : modèles de préparation.** Rien n'est envoyé sans ton autorisation explicite, fournisseur par fournisseur.
+> **Statut :** envoi des demandes de devis autorisé par le fondateur le 12/11/2026. Aucune commande ni paiement sans validation.
+> Envoyés le 12/11 : Thés Direct (modèle 1), Moya Matcha (modèle 2).
 > Champs à personnaliser : `{Fournisseur}`, `{Contact}`, `{Produit vu}`, `{Prénom Nom}`, `{Téléphone}`.
-> Marque utilisée : **OMBRE** (proposition, en attente de ta validation, voir `docs/02-identite-de-marque.md`).
+> Marque : **OMBRE** (validée).
 
 **Honnêteté sur notre situation** : l'entreprise n'est pas encore immatriculée. Beaucoup de grossistes exigent un SIRET pour ouvrir un compte pro. Les modèles le disent clairement (« en cours d'immatriculation ») : ne jamais prétendre le contraire.
 
@@ -140,7 +141,7 @@ Bien cordialement,
 
 ---
 
-## Organisation Gmail proposée (à créer seulement avec ton accord)
+## Organisation Gmail (libellés créés le 12/11/2026)
 
 Libellés : `Fournisseurs/1-À contacter` · `Fournisseurs/2-Devis demandé` · `Fournisseurs/3-Devis reçu` · `Fournisseurs/4-Négociation` · `Fournisseurs/5-Retenus` · `Fournisseurs/X-Écartés`
 

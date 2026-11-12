@@ -11,6 +11,8 @@ HF = PatternFill("solid", fgColor=ENCRE)
 thin = Side(style="thin", color="D9D2C3")
 B = Border(left=thin, right=thin, top=thin, bottom=thin)
 wb = Workbook()
+import datetime
+D = datetime.date(2026, 11, 12)
 
 def sheet(ws, headers, widths, rows=(), n_empty=30):
     ws.append(headers)
@@ -39,7 +41,7 @@ hdr = ["ID", "Fournisseur", "Catégorie", "Pays / ville", "Site officiel", "E-ma
 w = [6, 24, 14, 16, 26, 26, 16, 26, 12, 16, 9, 12, 12, 12, 10, 22, 22, 14, 18, 40]
 rows = [
  ["F01", "Thés Direct", "Matcha", "France – Aubagne (13)", "https://thesdirect.com", "info@thesdirect.com", "09 70 70 52 53",
-  "Fiche Trustpilot de l'entreprise (12/11/2026)", "Non", "2-À contacter", 1, None, None, None, None, None,
+  "Fiche Trustpilot de l'entreprise (12/11/2026)", "Oui (source tierce)", "3-Devis demandé", 1, D, D, None, None, "https://mail.google.com/mail/#all/1a1d163f086d1756",
   "Matcha cérémonie bio JP ~123,75 €/kg (sac 1 kg)", "1 kg ?", "À confirmer", "Certifié FR-BIO-01. Grossiste >600 réf. Vérifier compte pro et origine/récolte."],
  ["F02", "Grossiste-Thé / Grossiste-Boîte", "Matcha", "France", "https://grossiste-the.com", "À récupérer sur le site", "À récupérer",
   "—", "Non", "1-À qualifier", 1, None, None, None, None, None,
@@ -47,11 +49,11 @@ rows = [
  ["F03", "matchamatcha.fr (Matcha Cérémonie Bio)", "Matcha", "France", "https://matchamatcha.fr", "À récupérer (page B2B)", "À récupérer",
   "—", "Non", "1-À qualifier", 1, None, None, None, None, None,
   "Non publié (paliers 5/10/20 kg)", "1 kg", "À confirmer", "Annonce revente + marque blanche."],
- ["F04", "Kyosun", "Matcha", "UE (société s.r.o. – pays à confirmer)", "https://www.kyosun.com/fr/", "À récupérer", "À récupérer",
-  "—", "Non", "1-À qualifier", 2, None, None, None, None, None,
+ ["F04", "Kyosun s.r.o.", "Matcha", "Tchéquie – Prague 9", "https://www.kyosun.com/fr/", "Pas d'e-mail public trouvé (formulaire échantillon gratuit : kyosun.com/en/free-sample)", "+420 725 421 064",
+  "Fiche produit Alza.cz + page free-sample Kyosun", "Partiel", "2-À contacter", 2, None, None, None, None, None,
   "« dès 35 €/kg » (grade ?) ; ~80 €/kg cérémonie (annuaire)", "5 kg MB / 500 doypacks", "À confirmer", "Grade réel à vérifier : prix bas = risque qualité."],
  ["F05", "Moya Matcha", "Matcha", "Pologne", "https://b2b.moyamatcha.com", "wholesale@moyamatcha.com", "À récupérer",
-  "Résultat de recherche (extrait usetorg.com) – à vérifier", "Non", "1-À qualifier", 2, None, None, None, None, None,
+  "Site officiel moyamatcha.com (page wholesale/private label)", "Oui", "3-Devis demandé", 2, D, D, None, None, "https://mail.google.com/mail/#all/1a1d163f20434a0b",
   "Non publié", "Non publié", "À confirmer", ""],
  ["F06", "MatchaB2B", "Matcha (marque blanche)", "À confirmer", "https://www.matchab2b.com", "À récupérer", "À récupérer",
   "—", "Non", "1-À qualifier", 3, None, None, None, None, None,
@@ -66,7 +68,7 @@ rows = [
 last = sheet(ws, hdr, w, rows)
 dv = DataValidation(type="list", formula1='"' + ",".join(STATUTS) + '"', allow_blank=True)
 ws.add_data_validation(dv); dv.add(f"J2:J{last}")
-dv2 = DataValidation(type="list", formula1='"Oui,Non"'); ws.add_data_validation(dv2); dv2.add(f"I2:I{last}")
+dv2 = DataValidation(type="list", formula1='"Oui,Non,Partiel,Oui (source tierce)"'); ws.add_data_validation(dv2); dv2.add(f"I2:I{last}")
 dv3 = DataValidation(type="list", formula1='"Achat ferme,Stock réservé à notre nom,À confirmer,REFUSÉ (dropshipping)"')
 ws.add_data_validation(dv3); dv3.add(f"S2:S{last}")
 for r in range(2, last + 1):
@@ -95,7 +97,11 @@ dvb = DataValidation(type="list", formula1='"Oui,Non,Partiel"'); wc.add_data_val
 # ---------- 3. Journal des échanges ----------
 wj = wb.create_sheet("Journal échanges")
 hdr = ["Date", "ID fournisseur", "Sens (envoyé/reçu)", "Canal", "Objet", "Résumé", "Engagements pris", "Action suivante", "Échéance", "Lien Gmail"]
-sheet(wj, hdr, [12, 12, 14, 10, 28, 40, 30, 28, 12, 26], n_empty=60)
+sheet(wj, hdr, [12, 12, 14, 10, 28, 40, 30, 28, 12, 26], rows=[
+ [D, "F01", "Envoyé", "E-mail", "Demande de tarifs professionnels – matcha bio", "Demande de devis 1/2/5/10 kg, analyses, MOQ, délais, échantillons", "Aucun", "Relance si pas de réponse", datetime.date(2026,11,17), "https://mail.google.com/mail/#all/1a1d163f086d1756"],
+ [D, "F05", "Envoyé", "E-mail", "Wholesale enquiry – organic Japanese matcha", "Quote request 1/2/5/10 kg, COA, MOQ, lead time, samples", "None", "Follow-up if no reply", datetime.date(2026,11,17), "https://mail.google.com/mail/#all/1a1d163f20434a0b"],
+], n_empty=60)
+for r in range(2, 4): wj[f"A{r}"].number_format = wj[f"I{r}"].number_format = "DD/MM/YYYY"
 
 # ---------- 4. Négociation ----------
 wn = wb.create_sheet("Négociation")

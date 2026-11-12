@@ -28,7 +28,7 @@
 > |---|---|---|---|
 > | 5 000 € de **chiffre d'affaires** TTC/mois | mois 15 | **mois 7** | mois 4 |
 > | 5 000 € de **bénéfice avant impôts** (après marchandises, pub, frais, cotisations) | non atteint en 36 mois | **mois 27** | mois 13 |
-> Attention : 5 000 € de chiffre d'affaires laissent environ 400 à 1 400 € de résultat selon le scénario [E]. **Sens à confirmer.**
+> **Décision du fondateur (12/11/2026) : l'objectif est 5 000 € de chiffre d'affaires mensuel.** Plan détaillé : `docs/03-plan-objectif-5000-ca.md`. À ce niveau, le résultat estimé est d'environ 400 à 600 €/mois [E].
 
 ---
 

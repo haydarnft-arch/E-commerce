@@ -1,6 +1,6 @@
 # Identité de marque — proposition v1 : **OMBRE**
 
-**Date : 12/11/2026** · Statut : **proposition, à valider** · Visuel : `brand/planche-de-marque.html` · Logos : `brand/*.svg`
+**Date : 12/11/2026** · Statut : **validée le 12/11/2026** (domaine et comptes Instagram/TikTok vérifiés disponibles par le fondateur) · Visuel : `brand/planche-de-marque.html` · Logos : `brand/*.svg`
 
 ---
 
