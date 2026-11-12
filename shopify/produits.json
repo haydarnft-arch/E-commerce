@@ -1,0 +1,58 @@
+{
+  "_note": "Produits OMBRE à créer en BROUILLON (status DRAFT). Prix en EUR TTC. Origine/récolte/lot à compléter avec le fournisseur retenu. Aucune allégation santé.",
+  "products": [
+    {
+      "title": "Le Rituel — Coffret matcha",
+      "handle": "le-rituel-coffret-matcha",
+      "productType": "Coffret",
+      "vendor": "OMBRE",
+      "tags": ["coffret", "cadeau", "ceremonie", "best-seller"],
+      "price": "54.00",
+      "sku": "OMB-RIT-01",
+      "weight_g": 450,
+      "seo_title": "Coffret matcha cérémonie bio + fouet bambou | OMBRE",
+      "seo_description": "Le Rituel : matcha de cérémonie bio japonais 30 g, fouet chasen 100 brins, cuillère et support. Doux, jamais amer. Livraison offerte.",
+      "descriptionHtml": "<p><strong>Tout pour votre premier bol, en 2 minutes.</strong></p><p>Le Rituel réunit notre matcha de cérémonie N°1 et les trois outils traditionnels pour le préparer comme il se doit : une mousse fine, un vert intense, un goût doux, sans amertume.</p><h3>Dans le coffret</h3><ul><li>N°1 Cérémonie — matcha bio japonais, boîte de 30 g (environ 15 bols)</li><li>Fouet en bambou chasen, 100 brins</li><li>Cuillère en bambou chashaku</li><li>Support de fouet en céramique</li><li>Carte « Votre premier bol en 2 minutes »</li></ul><h3>Pourquoi il n'est pas amer</h3><p>Avant la récolte, les théiers sont mis à l'ombre pendant environ trois semaines. Cette ombre donne au matcha sa couleur vert vif et sa douceur. C'est elle qui a donné son nom à notre maison.</p><h3>Préparation</h3><p>2 g de matcha · 70 ml d'eau à 75 °C · fouetter en W pendant 20 secondes.</p><h3>Traçabilité</h3><p>Origine : [à compléter] · Récolte : [à compléter] · N° de lot : [à compléter]. Certificat bio et analyses disponibles sur demande.</p><p><em>Ingrédient : thé vert en poudre (matcha) issu de l'agriculture biologique. Contient naturellement de la caféine. À conserver au sec, à l'abri de la lumière ; après ouverture, refermer soigneusement et consommer dans les 2 mois.</em></p>"
+    },
+    {
+      "title": "N°1 Cérémonie — Matcha bio 30 g",
+      "handle": "n1-ceremonie-matcha-bio-30g",
+      "productType": "Matcha",
+      "vendor": "OMBRE",
+      "tags": ["matcha", "ceremonie", "recharge"],
+      "price": "27.00",
+      "sku": "OMB-N1-30",
+      "weight_g": 90,
+      "seo_title": "Matcha de cérémonie bio japonais 30 g | OMBRE N°1",
+      "seo_description": "Matcha de cérémonie bio, cultivé à l'ombre au Japon. Vert intense, goût doux sans amertume. Origine et récolte indiquées pour chaque lot.",
+      "descriptionHtml": "<p><strong>Notre matcha de cérémonie. À boire pur, simplement avec de l'eau.</strong></p><p>Vert vif, mousse dense, notes douces et végétales, une finale umami. Pour un bol traditionnel ou un latte d'exception.</p><ul><li>30 g, environ 15 bols</li><li>Agriculture biologique</li><li>Origine, récolte et lot indiqués sur chaque boîte</li></ul><h3>Préparation</h3><p>2 g · 70 ml d'eau à 75 °C · 20 secondes de fouet en W. Pour un latte : ajoutez 150 ml de lait chaud ou de boisson végétale.</p><p>Origine : [à compléter] · Récolte : [à compléter] · N° de lot : [à compléter]</p><p><em>Ingrédient : thé vert en poudre (matcha) issu de l'agriculture biologique. Contient naturellement de la caféine. À conserver au sec et à l'abri de la lumière.</em></p>"
+    },
+    {
+      "title": "Duo Cérémonie — 2 × 30 g",
+      "handle": "duo-ceremonie-2x30g",
+      "productType": "Matcha",
+      "vendor": "OMBRE",
+      "tags": ["matcha", "ceremonie", "recharge", "duo"],
+      "price": "46.00",
+      "compare_at_price": "54.00",
+      "sku": "OMB-N1-DUO",
+      "weight_g": 180,
+      "seo_title": "Duo matcha de cérémonie bio 2 × 30 g | OMBRE",
+      "seo_description": "Deux boîtes de matcha de cérémonie bio N°1 : un mois de rituel. Livraison offerte.",
+      "descriptionHtml": "<p><strong>Un mois de rituel quotidien, livraison offerte.</strong></p><p>Deux boîtes de notre N°1 Cérémonie (2 × 30 g, environ 30 bols). La seconde reste scellée et garde toute sa fraîcheur jusqu'à ouverture.</p><p>Origine : [à compléter] · Récolte : [à compléter] · N° de lot : [à compléter]</p><p><em>Ingrédient : thé vert en poudre (matcha) issu de l'agriculture biologique. Contient naturellement de la caféine.</em></p>"
+    },
+    {
+      "title": "N°2 Latte — Matcha bio 100 g",
+      "handle": "n2-latte-matcha-bio-100g",
+      "productType": "Matcha",
+      "vendor": "OMBRE",
+      "tags": ["matcha", "latte", "quotidien"],
+      "price": "24.00",
+      "sku": "OMB-N2-100",
+      "weight_g": 140,
+      "seo_title": "Matcha latte bio japonais 100 g | OMBRE N°2",
+      "seo_description": "Matcha bio japonais pensé pour le latte : caractère affirmé qui ressort dans le lait. 100 g, environ 50 lattes.",
+      "descriptionHtml": "<p><strong>Le matcha du quotidien, fait pour le lait.</strong></p><p>Un caractère plus affirmé, qui ressort dans le lait ou la boisson végétale. Idéal pour le matcha latte, glacé ou chaud.</p><ul><li>100 g, environ 50 lattes</li><li>Agriculture biologique, origine Japon</li></ul><h3>Matcha latte en 1 minute</h3><p>2 g de matcha + 50 ml d'eau à 75 °C, fouetter, puis ajouter 150 ml de lait chaud ou froid.</p><p>Origine : [à compléter] · Récolte : [à compléter] · N° de lot : [à compléter]</p><p><em>Ingrédient : thé vert en poudre (matcha) issu de l'agriculture biologique. Contient naturellement de la caféine.</em></p>"
+    }
+  ]
+}
