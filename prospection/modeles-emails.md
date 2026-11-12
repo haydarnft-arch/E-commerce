@@ -1,7 +1,7 @@
 # Modèles d'e-mails fournisseurs
 
 > **Statut :** envoi des demandes de devis autorisé par le fondateur le 12/11/2026. Aucune commande ni paiement sans validation.
-> Envoyés le 12/11 : Thés Direct (modèle 1), Moya Matcha (modèle 2).
+> Envoyés le 12/11 : Thés Direct (modèle 1), Moya Matcha (modèle 2), puis MATCHASHOCK, Matcha Magic, ZEEKEI, ASARUMI, Matchasome, Kyosun (modèle 2). Brouillons Gmail prêts : Matcha Matcha, Grossiste-Thé (modèle 1).
 > Champs à personnaliser : `{Fournisseur}`, `{Contact}`, `{Produit vu}`, `{Prénom Nom}`, `{Téléphone}`.
 > Marque : **OMBRE** (validée).
 
