@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OMBRE – Planche de marque</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--encre:#1F2A22;--matcha:#7FA33A;--washi:#F4EFE6;--bambou:#C9B48A;--brume:#E6E1D4;--texte:#1F2A22;--muted:#5B6359;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--washi);color:var(--texte);font-family:'DM Sans',Helvetica,Arial,sans-serif;line-height:1.55}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+h1,h2,h3,.serif{font-family:Fraunces,Georgia,serif;font-weight:500}
+section{padding:56px 0;border-bottom:1px solid var(--brume)}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+h2{font-size:30px;margin-bottom:18px}
+p.lead{font-size:18px;max-width:640px}
+.hero{background:var(--encre);color:var(--washi);padding:80px 0 72px;border:none}
+.hero .eyebrow{color:var(--bambou)}
+.hero h1{font-size:clamp(52px,12vw,104px);letter-spacing:.14em;line-height:1}
+.hero .tag{font-size:clamp(20px,4vw,28px);margin-top:18px;font-family:Fraunces,Georgia,serif;font-style:italic;color:var(--brume)}
+.sym{width:88px;height:88px;margin-bottom:28px}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.card{background:#fff;border-radius:14px;padding:22px;border:1px solid var(--brume)}
+.logo-box{border-radius:14px;padding:28px 18px;display:flex;align-items:center;justify-content:center;min-height:150px}
+.logo-box svg{max-width:100%;height:auto}
+.sw{border-radius:14px;overflow:hidden;border:1px solid var(--brume);background:#fff}
+.sw .c{height:110px}
+.sw .t{padding:12px 14px;font-size:14px}
+.sw b{display:block;font-size:15px}
+.mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--muted)}
+.type-a{font-family:Fraunces,Georgia,serif;font-size:44px;line-height:1.1}
+.type-b{font-size:17px}
+.pill{display:inline-block;border:1px solid var(--encre);border-radius:999px;padding:6px 14px;margin:4px 6px 4px 0;font-size:14px}
+.tin-row{display:flex;gap:22px;flex-wrap:wrap;justify-content:center;padding:10px 0}
+.tin{width:156px;height:218px;background:var(--encre);border-radius:12px 12px 10px 10px;position:relative;box-shadow:0 18px 30px -18px rgba(0,0,0,.5);color:var(--washi)}
+.tin:before{content:"";position:absolute;top:0;left:0;right:0;height:26px;background:#2A372E;border-radius:12px 12px 0 0;border-bottom:1px solid #111}
+.tin .lab{position:absolute;left:12px;right:12px;top:44px;bottom:16px;background:var(--washi);color:var(--encre);border-radius:6px;padding:12px 10px;text-align:center}
+.tin .lab .n{font-size:11px;letter-spacing:.2em;color:var(--muted)}
+.tin .lab .nm{font-family:Fraunces,Georgia,serif;font-size:15px;margin:6px 0 2px;letter-spacing:.08em}
+.tin .lab .sub{font-size:11px}
+.tin .lab .dot{width:30px;height:30px;margin:8px auto 6px;display:block}
+.tin .lab .meta{font-size:8px;line-height:1.3;color:var(--muted);letter-spacing:.08em}
+.post{aspect-ratio:4/5;border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:22px}
+.post h3{font-size:26px;line-height:1.15}
+.post small{font-size:12px;letter-spacing:.18em;text-transform:uppercase;opacity:.8}
+.p1{background:linear-gradient(160deg,#2A372E 0%,#1F2A22 55%),var(--encre);color:var(--washi)}
+.p1:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(115deg,transparent 0 26px,rgba(244,239,230,.05) 26px 40px)}
+.p2{background:var(--matcha);color:var(--encre)}
+.p3{background:var(--brume);color:var(--encre)}
+.do,.dont{padding-left:18px}
+.do li::marker{content:"✓  ";color:var(--matcha)}
+.dont li::marker{content:"✕  ";color:#B4573E}
+li{margin:6px 0}
+footer{padding:36px 0 60px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="wrap">
+    <svg class="sym" viewBox="0 0 120 120"><defs><clipPath id="h"><circle cx="60" cy="60" r="52"/></clipPath></defs><g clip-path="url(#h)"><rect width="120" height="49" fill="#F4EFE6"/><rect y="49" width="120" height="6" fill="#1F2A22"/><rect y="55" width="120" height="65" fill="#7FA33A"/></g></svg>
+    <div class="eyebrow">Proposition d'identité · v1 · à valider</div>
+    <h1>OMBRE</h1>
+    <div class="tag">Le matcha né à l'ombre. Jamais amer, toujours tracé.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">01 · L'idée</div>
+    <h2>Le nom raconte la qualité</h2>
+    <p class="lead">Avant la récolte, les théiers du matcha sont couverts et privés de soleil pendant environ trois semaines. Cette ombre augmente la chlorophylle et la L-théanine : c'est elle qui donne un vert intense et un goût doux, sans amertume. OMBRE transforme ce fait de culture en promesse de marque.</p>
+    <div class="grid g2" style="margin-top:26px">
+      <div class="card"><b class="serif" style="font-size:20px">Mission</b><p>Rendre le vrai matcha simple, doux et transparent.</p></div>
+      <div class="card"><b class="serif" style="font-size:20px">Promesse</b><p>Jamais amer. Toujours tracé : origine, récolte et analyses publiées pour chaque lot.</p></div>
+      <div class="card"><b class="serif" style="font-size:20px">Pour qui</b><p>25-40 ans, urbains, 2-3 cafés par jour, envie d'énergie calme et d'un vrai rituel du matin.</p></div>
+      <div class="card"><b class="serif" style="font-size:20px">Personnalité</b><p>Calme · précise · chaleureuse · française. Jamais de clichés japonisants.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">02 · Logo</div>
+    <h2>Le symbole : un bol vu du dessus, sous son ombre</h2>
+    <p class="lead">Le cercle est le bol. La partie sombre est la couverture qui protège les feuilles, le vert est le matcha. Le trait clair entre les deux est la lumière filtrée.</p>
+    <div class="grid g2" style="margin-top:26px">
+      <div class="logo-box" style="background:var(--washi);border:1px solid var(--brume)">
+        <svg viewBox="0 0 520 140" width="420"><defs><clipPath id="l1"><circle cx="74" cy="70" r="52"/></clipPath></defs><g clip-path="url(#l1)"><rect x="0" y="0" width="160" height="59" fill="#1F2A22"/><rect x="0" y="59" width="160" height="6" fill="#F4EFE6"/><rect x="0" y="65" width="160" height="80" fill="#7FA33A"/></g><text x="152" y="86" font-family="Fraunces,Georgia,serif" font-size="66" font-weight="500" letter-spacing="14" fill="#1F2A22">OMBRE</text><text x="155" y="114" font-family="DM Sans,Arial,sans-serif" font-size="13" letter-spacing="4.2" fill="#1F2A22" opacity=".75">MATCHA · NÉ À L'OMBRE</text></svg>
+      </div>
+      <div class="logo-box" style="background:var(--encre)">
+        <svg viewBox="0 0 520 140" width="420"><defs><clipPath id="l2"><circle cx="74" cy="70" r="52"/></clipPath></defs><g clip-path="url(#l2)"><rect x="0" y="0" width="160" height="59" fill="#F4EFE6"/><rect x="0" y="59" width="160" height="6" fill="#1F2A22"/><rect x="0" y="65" width="160" height="80" fill="#7FA33A"/></g><text x="152" y="86" font-family="Fraunces,Georgia,serif" font-size="66" font-weight="500" letter-spacing="14" fill="#F4EFE6">OMBRE</text><text x="155" y="114" font-family="DM Sans,Arial,sans-serif" font-size="13" letter-spacing="4.2" fill="#F4EFE6" opacity=".75">MATCHA · NÉ À L'OMBRE</text></svg>
+      </div>
+      <div class="logo-box" style="background:var(--matcha)">
+        <svg viewBox="0 0 120 120" width="110"><defs><clipPath id="l3"><circle cx="60" cy="60" r="52"/></clipPath></defs><g clip-path="url(#l3)"><rect width="120" height="49" fill="#1F2A22"/><rect y="49" width="120" height="6" fill="#7FA33A"/><rect y="55" width="120" height="65" fill="#F4EFE6"/></g></svg>
+      </div>
+      <div class="logo-box" style="background:#fff;border:1px solid var(--brume)">
+        <div style="text-align:center"><svg viewBox="0 0 120 120" width="64"><defs><clipPath id="l4"><circle cx="60" cy="60" r="52"/></clipPath></defs><g clip-path="url(#l4)"><rect width="120" height="49" fill="#1F2A22"/><rect y="49" width="120" height="6" fill="#fff"/><rect y="55" width="120" height="65" fill="#7FA33A"/></g></svg><div class="mono" style="margin-top:8px">Avatar réseaux · favicon · tampon</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">03 · Couleurs</div>
+    <h2>Une palette tirée du produit</h2>
+    <div class="grid g4">
+      <div class="sw"><div class="c" style="background:#1F2A22"></div><div class="t"><b>Encre d'ombre</b><span class="mono">#1F2A22</span><br>Textes, boîtes, fonds premium</div></div>
+      <div class="sw"><div class="c" style="background:#7FA33A"></div><div class="t"><b>Vert matcha</b><span class="mono">#7FA33A</span><br>Accent unique, boutons d'achat</div></div>
+      <div class="sw"><div class="c" style="background:#F4EFE6"></div><div class="t"><b>Papier washi</b><span class="mono">#F4EFE6</span><br>Fond principal, étiquettes</div></div>
+      <div class="sw"><div class="c" style="background:#C9B48A"></div><div class="t"><b>Bambou</b><span class="mono">#C9B48A</span><br>Détails, accessoires, filets</div></div>
+    </div>
+    <p style="margin-top:16px;color:var(--muted)">Règle : environ 60 % washi, 30 % encre, 10 % vert. Le vert est réservé à ce qui compte (le produit, le bouton « Ajouter au panier »).</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">04 · Typographie (gratuite, Google Fonts)</div>
+    <div class="grid g2">
+      <div class="card"><div class="type-a">Fraunces</div><p class="mono" style="margin:8px 0 12px">Titres · prix · noms de produits</p><p class="serif" style="font-size:22px">Un vert profond, une douceur ronde, sans amertume.</p></div>
+      <div class="card"><div style="font-size:44px;line-height:1.1;font-weight:500">DM Sans</div><p class="mono" style="margin:8px 0 12px">Textes · boutons · interface</p><p class="type-b">Préparation en 2 minutes : 2 g de matcha, 70 ml d'eau à 75 °C, fouetter en W pendant 20 secondes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">05 · Gamme & packaging</div>
+    <h2>Des boîtes numérotées, comme un parfum</h2>
+    <div class="tin-row">
+      <div class="tin"><div class="lab"><div class="n">N°1</div><div class="nm">CÉRÉMONIE</div><div class="sub">Matcha bio · 30 g</div><svg class="dot" viewBox="0 0 120 120"><defs><clipPath id="t1"><circle cx="60" cy="60" r="52"/></clipPath></defs><g clip-path="url(#t1)"><rect width="120" height="49" fill="#1F2A22"/><rect y="49" width="120" height="6" fill="#F4EFE6"/><rect y="55" width="120" height="65" fill="#7FA33A"/></g></svg><div class="meta">ORIGINE · RÉCOLTE<br>N° DE LOT</div></div></div>
+      <div class="tin" style="background:#2E3A31"><div class="lab"><div class="n">N°2</div><div class="nm">LATTE</div><div class="sub">Matcha bio · 100 g</div><svg class="dot" viewBox="0 0 120 120"><defs><clipPath id="t2"><circle cx="60" cy="60" r="52"/></clipPath></defs><g clip-path="url(#t2)"><rect width="120" height="49" fill="#1F2A22"/><rect y="49" width="120" height="6" fill="#F4EFE6"/><rect y="55" width="120" height="65" fill="#C9B48A"/></g></svg><div class="meta">ORIGINE · RÉCOLTE<br>N° DE LOT</div></div></div>
+    </div>
+    <div style="margin-top:18px">
+      <span class="pill">Le Rituel · coffret · 54 €</span><span class="pill">N°1 Cérémonie · 30 g · 27 €</span><span class="pill">Duo Cérémonie · 2 × 30 g · 46 €</span><span class="pill">N°2 Latte · 100 g · 24 €</span>
+    </div>
+    <p style="margin-top:14px;color:var(--muted)">Le prix des coffrets et recharges reprend l'étude de marché. Les mentions origine, récolte et lot seront remplies avec les données du fournisseur retenu.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">06 · Réseaux sociaux</div>
+    <div class="grid g4">
+      <div class="post p1"><small>@ombre.matcha</small><h3 class="serif">Trois semaines sans soleil.<br>Voilà pourquoi il n'est pas amer.</h3></div>
+      <div class="post p2"><small>Rituel · 2 min</small><h3 class="serif">2 g · 70 ml · 75 °C · 20 secondes.</h3></div>
+      <div class="post p3"><small>Transparence</small><h3 class="serif">Origine, récolte, analyses. Tout est publié pour chaque lot.</h3></div>
+    </div>
+    <p style="margin-top:16px;color:var(--muted)">Direction photo : lumière naturelle rasante, ombres portées (feuillages, stores), lin et pierre. Le vert du matcha doit être la seule couleur vive de l'image.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">07 · Ton de voix</div>
+    <div class="grid g2">
+      <div class="card"><b class="serif" style="font-size:20px">On dit</b><ul class="do"><li>« Doux, parce qu'il a poussé à l'ombre. »</li><li>« Récolte de mai 2026, préfecture de Kagoshima. » (des faits précis)</li><li>« Votre premier bol en 2 minutes. »</li><li>Vouvoiement sur le site, tutoiement sur TikTok.</li></ul></div>
+      <div class="card"><b class="serif" style="font-size:20px">On ne dit pas</b><ul class="dont"><li>« Superaliment miracle », « brûle les graisses », « détox » (allégations santé interdites)</li><li>Geishas, sakura, fausse calligraphie, « zen » à toutes les phrases</li><li>« Le meilleur matcha du monde » sans preuve</li><li>Urgence artificielle (« plus que 2 en stock ! » si c'est faux)</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">OMBRE · proposition d'identité v1 · 12/11/2026. Avant validation : disponibilité du nom à vérifier (INPI classe 30, nom de domaine, comptes Instagram et TikTok). Polices sous licence SIL Open Font. Les logos sont des fichiers de travail, à vectoriser définitivement avant impression.</div>
+</footer>
+</body>
+</html>

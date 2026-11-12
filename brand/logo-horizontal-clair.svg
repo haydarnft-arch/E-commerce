@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="1040" height="280">
+  <rect width="520" height="140" fill="#F4EFE6"/>
+  <g transform="translate(14,10)">
+  <defs><clipPath id="c"><circle cx="60" cy="60" r="52"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect x="0" y="0" width="120" height="49" fill="#1F2A22"/>
+    <rect x="0" y="49" width="120" height="6" fill="#F4EFE6"/>
+    <rect x="0" y="55" width="120" height="65" fill="#7FA33A"/>
+  </g>
+  </g>
+  <text x="152" y="86" font-family="Fraunces, 'Cormorant Garamond', Georgia, serif" font-size="66" font-weight="500" letter-spacing="14" fill="#1F2A22">OMBRE</text>
+  <text x="155" y="114" font-family="'DM Sans', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4.2" fill="#1F2A22" opacity="0.75">MATCHA · NÉ À L'OMBRE</text>
+</svg>

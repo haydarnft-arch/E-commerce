@@ -22,6 +22,14 @@
 6. **Le capital (500 vs 1 000 €) change peu la trajectoire** : ce qui décide, c'est le **coût d'acquisition client (CPA)** et le **taux de réachat** [E]. Donc la priorité avant le 26/11 n'est pas de lever plus d'argent, mais de préparer un excellent contenu et une boutique qui convertit.
 7. **Je te déconseille de lancer la pub payante le 26-30 novembre** : c'est la semaine du Black Friday (27/11/2026), les CPM y sont parmi les plus chers de l'année (+25 à 50 % vs T1) [F]. Décembre = organique + petits tests ; **vrais tests publicitaires en janvier**.
 
+
+> **Mise à jour du 12/11/2026 — objectif « 5 000 € brut ».** Tu as précisé que les 5 000 € visés sont **bruts**, pas nets. Selon le sens retenu, les délais simulés (§ 7.2) changent beaucoup :
+> | Sens de « brut » | Prudent | Réaliste | Ambitieux |
+> |---|---|---|---|
+> | 5 000 € de **chiffre d'affaires** TTC/mois | mois 15 | **mois 7** | mois 4 |
+> | 5 000 € de **bénéfice avant impôts** (après marchandises, pub, frais, cotisations) | non atteint en 36 mois | **mois 27** | mois 13 |
+> Attention : 5 000 € de chiffre d'affaires laissent environ 400 à 1 400 € de résultat selon le scénario [E]. **Sens à confirmer.**
+
 ---
 
 ## 1. Analyse critique de la demande initiale
