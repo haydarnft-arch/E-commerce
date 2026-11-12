@@ -27,3 +27,8 @@
 - Photos réelles du produit : après réception du stock (le 26/11 au plus tôt).
 - Activation des paiements, choix du forfait Shopify, nom de domaine : décisions et dépenses à valider.
 - Publication du thème et ouverture de la boutique : uniquement avec ton accord.
+
+## Avancement (12/11/2026)
+- Le connecteur Shopify a demandé une nouvelle connexion : **aucune écriture dans la boutique pour l'instant**.
+- Prêt à importer : `shopify/pages/*.html` + `shopify/pages/import.json`, générés par `python3 shopify/generer_pages.py` (dépendance : `pip install markdown`). Toutes les pages sont prévues **masquées** ; les notes internes et la garantie « Pas doux ? » (non validée) sont retirées du texte client.
+- Reste à faire dès la reconnexion : étapes 1 à 6 ci-dessus.

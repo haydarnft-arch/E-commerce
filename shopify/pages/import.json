@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Notre histoire",
+    "handle": "notre-histoire",
+    "isPublished": false,
+    "bodyFile": "notre-histoire.html",
+    "bloquants_avant_publication": [],
+    "notes_retirees": []
+  },
+  {
+    "title": "Livraison",
+    "handle": "livraison",
+    "isPublished": false,
+    "bodyFile": "livraison.html",
+    "bloquants_avant_publication": [
+      "[E-MAIL CONTACT]",
+      "seuil 45 € et délais à confirmer"
+    ],
+    "notes_retirees": [
+      "Note interne : seuil de 45 € et délais à confirmer selon le transporteur retenu."
+    ]
+  },
+  {
+    "title": "Retours & remboursements",
+    "handle": "retours",
+    "isPublished": false,
+    "bodyFile": "retours.html",
+    "bloquants_avant_publication": [
+      "[E-MAIL CONTACT]",
+      "[ADRESSE]"
+    ],
+    "notes_retirees": [
+      "à activer seulement si validée par le fondateur",
+      "Garantie « Pas doux ? » retirée en attendant validation"
+    ]
+  },
+  {
+    "title": "Mentions légales",
+    "handle": "mentions-legales",
+    "isPublished": false,
+    "bodyFile": "mentions-legales.html",
+    "bloquants_avant_publication": [
+      "SIRET",
+      "adresse",
+      "nom",
+      "e-mail"
+    ],
+    "notes_retirees": [
+      "tant que la franchise en base s'applique",
+      "à vérifier dans les conditions Shopify au moment de la mise en ligne"
+    ]
+  },
+  {
+    "title": "Conditions générales de vente",
+    "handle": "cgv",
+    "isPublished": false,
+    "bodyFile": "cgv.html",
+    "bloquants_avant_publication": [
+      "texte complet à rédiger",
+      "médiateur"
+    ],
+    "notes_retirees": []
+  },
+  {
+    "title": "FAQ",
+    "handle": "faq",
+    "isPublished": false,
+    "bodyFile": "faq.html",
+    "bloquants_avant_publication": [
+      "mention caféine à valider avec la fiche fournisseur"
+    ],
+    "notes_retirees": [
+      "Formulation à valider selon la fiche technique du fournisseur."
+    ]
+  }
+]
