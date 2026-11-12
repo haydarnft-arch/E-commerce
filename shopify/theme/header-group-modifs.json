@@ -1,0 +1,35 @@
+{
+  "type": "header",
+  "name": "t:names.header",
+  "sections": {
+    "header_announcements_9jGBFp": {
+      "type": "header-announcements",
+      "blocks": {
+        "announcement_BxgCk9": {
+          "type": "_announcement",
+          "settings": {
+            "text": "Livraison offerte dès 45 € · Matcha bio japonais, origine tracée"
+          }
+        }
+      },
+      "settings": {
+        "background_color": "#C9B48A",
+        "divider_width": 0
+      }
+    },
+    "header_section": {
+      "blocks": {
+        "header-menu": {
+          "settings": {
+            "menu": "menu-ombre"
+          }
+        }
+      },
+      "settings": {
+        "show_country": false,
+        "show_language": false
+      }
+    }
+  },
+  "_note": "Extrait des réglages modifiés dans sections/header-group.json (le fichier complet est dans le thème Shopify)."
+}

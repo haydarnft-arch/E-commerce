@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "titre": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Le matcha né à l'ombre.</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h1",
+            "text_color": "{{ settings.color_palette.foreground }}"
+          },
+          "blocks": {}
+        },
+        "soustitre": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jamais amer. Toujours tracé.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4",
+            "text_color": "{{ settings.color_palette.foreground }}"
+          },
+          "blocks": {}
+        },
+        "bouton": {
+          "type": "button",
+          "settings": {
+            "label": "Découvrir le Rituel",
+            "link": "shopify://products/le-rituel-coffret-matcha",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "width_mobile": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "titre",
+        "soustitre",
+        "bouton"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "section_height": "medium",
+        "background_color": "#E8E0D2",
+        "toggle_overlay": false,
+        "padding-block-start": 100,
+        "padding-block-end": 100
+      }
+    },
+    "reassurance": {
+      "type": "section",
+      "blocks": {
+        "r1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Livraison 48-72 h</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "r2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bio</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "r3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Origine et récolte indiquées</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "r4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Paiement sécurisé</strong></p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "#C9B48A",
+        "padding-block-start": 16,
+        "padding-block-end": 16,
+        "horizontal_alignment": "space-around"
+      }
+    },
+    "vedette": {
+      "type": "product-list",
+      "blocks": {},
+      "settings": {
+        "collection": "coffrets-cadeaux",
+        "layout_type": "grid",
+        "max_products": 1,
+        "columns": 1,
+        "mobile_columns": "1",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "pourquoi": {
+      "type": "section",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Pourquoi l'ombre</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2"
+          },
+          "blocks": {}
+        },
+        "c1": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Ombre</h4><p>Trois semaines avant la récolte, les théiers sont couverts.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "c2": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Douceur</h4><p>Privée de soleil, la feuille perd son amertume.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "c3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Vert intense</h4><p>Un matcha vif, une mousse fine, un goût doux.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "t",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "gamme": {
+      "type": "product-list",
+      "blocks": {},
+      "settings": {
+        "collection": "matcha",
+        "layout_type": "grid",
+        "max_products": 3,
+        "columns": 3,
+        "mobile_columns": "1",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "rituel": {
+      "type": "section",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Le rituel en 4 étapes</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2"
+          },
+          "blocks": {}
+        },
+        "e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>2 g</strong> de matcha · <strong>70 ml</strong> d'eau · <strong>75 °C</strong> · <strong>20 s</strong> de fouet en W</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h4"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "t",
+        "e"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "#E8E0D2",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    },
+    "faq": {
+      "type": "section",
+      "blocks": {
+        "t": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Questions fréquentes</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2"
+          },
+          "blocks": {}
+        },
+        "q1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Pourquoi n'est-il pas amer ?</strong><br>Cultivé à l'ombre et préparé à 75 °C, jamais à l'eau bouillante.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "q2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Combien de bols dans 30 g ?</strong><br>Environ 15, à 2 g par bol.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "rte"
+          },
+          "blocks": {}
+        },
+        "lien": {
+          "type": "button",
+          "settings": {
+            "label": "Toutes les questions",
+            "link": "shopify://pages/faq",
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "width_mobile": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "t",
+        "q1",
+        "q2",
+        "lien"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "horizontal_alignment_flex_direction_column": "center",
+        "gap": 24,
+        "section_width": "page-width",
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 56,
+        "padding-block-end": 56
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "reassurance",
+    "vedette",
+    "pourquoi",
+    "gamme",
+    "rituel",
+    "faq"
+  ]
+}

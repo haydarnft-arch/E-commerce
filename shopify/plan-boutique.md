@@ -28,7 +28,13 @@
 - Activation des paiements, choix du forfait Shopify, nom de domaine : décisions et dépenses à valider.
 - Publication du thème et ouverture de la boutique : uniquement avec ton accord.
 
-## Avancement (12/11/2026)
-- Le connecteur Shopify a demandé une nouvelle connexion : **aucune écriture dans la boutique pour l'instant**.
-- Prêt à importer : `shopify/pages/*.html` + `shopify/pages/import.json`, générés par `python3 shopify/generer_pages.py` (dépendance : `pip install markdown`). Toutes les pages sont prévues **masquées** ; les notes internes et la garantie « Pas doux ? » (non validée) sont retirées du texte client.
-- Reste à faire dès la reconnexion : étapes 1 à 6 ci-dessus.
+## Avancement (12/11/2026, construit dans Shopify)
+Boutique : `dz9snc-bz.myshopify.com` · forfait d'essai (trial) · EUR. **Rien n'est publié.**
+- [x] 4 produits en **brouillon** (SKU, poids, stock suivi, stock = 0, SEO)
+- [x] Collections « Matcha » (N°1, Duo, N°2) et « Coffrets & cadeaux » (Rituel, Duo) : **non publiées** sur la boutique en ligne
+- [x] 6 pages **masquées** : Notre histoire, Livraison, Retours, Mentions légales, CGV, FAQ
+- [x] Menu `menu-ombre` (Boutique · Le Rituel · Notre histoire · FAQ), utilisé seulement par le thème brouillon ; `main-menu` non modifié
+- [x] Thème « OMBRE (brouillon) », copie **non publiée** de Horizon : couleurs, polices Fraunces/DM Sans, boutons pilule, cartes 12 px, accueil en 7 sections, bandeau d'annonce, en-tête. Fichiers générés par `shopify/theme/generer_theme.py`.
+- [ ] Vérifier l'aperçu du thème (polices, rendu mobile), puis ajuster
+- [ ] Photos produits · stock · placeholders [à compléter] (origine, récolte, lot)
+- [ ] Avant d'ouvrir : SIRET, mentions légales/CGV complètes, médiateur, paiements, forfait, domaine, livraison (seuil 45 €)

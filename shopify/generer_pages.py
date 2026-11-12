@@ -43,7 +43,7 @@ def nettoyer(md: str) -> tuple[str, list[str]]:
             continue
         if ligne.strip().startswith("*Note interne"):
             continue
-        lignes.append(NOTE_INTERNE.sub("", ligne).rstrip())
+        lignes.append(NOTE_INTERNE.sub("", ligne).rstrip().replace(" .", "."))
     return "\n".join(lignes).strip(), notes
 
 
