@@ -41,6 +41,6 @@ Hypothèses [E] : boîte vide et étiquette 2,50 €, support céramique 3 €, 
 ## 4. Premier stock possible au 26/11 (Matcha Matcha, budget ~1 000 €)
 - 1 kg de matcha cérémonie : 199 €
 - 25 fouets + 25 cuillères à prix unitaire : 25 × 8 + 25 × 2,50 = 262,50 €
-- Port : 12 € (franco à partir de 390 € HT, ce qui serait atteint ici)
+- Port : offert (franco de port à partir de 390 € HT)
 - **Sous-total fournisseur : ~460 € HT** (TVA : 5,5 % sur le matcha, 20 % sur les accessoires)
 - Il reste à trouver : boîtes vides 30 g, étiquettes, supports, coffrets.
