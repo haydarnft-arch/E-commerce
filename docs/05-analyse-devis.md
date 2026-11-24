@@ -44,3 +44,18 @@ Hypothèses [E] : boîte vide et étiquette 2,50 €, support céramique 3 €, 
 - Port : offert (franco de port à partir de 390 € HT)
 - **Sous-total fournisseur : ~460 € HT** (TVA : 5,5 % sur le matcha, 20 % sur les accessoires)
 - Il reste à trouver : boîtes vides 30 g, étiquettes, supports, coffrets.
+
+---
+
+## 5. Mise à jour du 24/11/2026
+
+| Fournisseur | Nouvelle information |
+|---|---|
+| **Thés Direct** | A répondu le 17/11. Prix pros HT affichés sur leur site (non lisible depuis mon environnement). Aucun minimum, sacs de 1 kg, port 9,90 € (offert dès 300 €). **Préparation en 5 à 10 jours ouvrés** : trop lent pour un lancement début décembre. Pas d'échantillon à la demande. Origine et analyses non communiquées. |
+| **Moya** (Varsovie) | Grille « marque blanche » de juillet 2026. Boîte 30 g bio cérémonie « Traditional » à notre marque : **10,30 €** l'unité, **minimum 250 boîtes** (≈ 2 575 €). Fouet 5,95 €, support porcelaine 4,45 €, cuillère 1,70 € (**minimum 100** chacun). **Échantillons offerts** (3 grades + hojicha), 15 € de port. Analyses fournies seulement après commande. |
+| **Matcha Matcha** | Relance commerciale le 23/11 : propose une 1re commande sous 2 semaines et l'envoi de l'échantillon 10 g (5 €) sous 72 h. |
+| **Kyosun** | Rappel : numéro de TVA intracommunautaire obligatoire. |
+
+**Conclusion inchangée** : Matcha Matcha reste le meilleur fournisseur pour démarrer (1 kg, livraison rapide, prix au kilo le plus bas en bio japonais). **Moya devient intéressant en phase 2** : ses accessoires sont moins chers que ceux de Matcha Matcha, mais ses minimums (100 à 250 unités) dépassent le budget de lancement.
+
+**Échantillons conseillés (décision fondateur)** : Matcha Matcha 10 g (5 € + 5 € de port) + Moya (gratuits, 15 € de port) = **25 €**. Ils remplaceraient ceux d'Asarumi, qui coûtent 12,50 € pour 5 g et sont plus chers à l'achat en vrac.
